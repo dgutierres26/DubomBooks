@@ -1,8 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <books>
-
-
-
-
-    
+<section name="Action Books">
+    <book bestseller="true">
+    <title>The Spy and the Traitor: The Greatest Espionage Story of the Cold War:</title>
+    <author>Ben Macintyre</author>
+    <publisher>Penguin books</publisher>
+    <price>€7.99</price>
+    </book>
+    <book>
+    <title>The Enemy</title>
+    <author>Charles Higson</author>
+    <publisher>Penguin books</publisher>
+    <price>€8.40</price>
+    </book>
+    <book>
+    <title>V2</title>
+    <author>Robert Harris</author>
+    <publisher>Hutchinson</publisher>
+    <price>€25.00</price>
+    </book>
+</section>
+<section name="Comedy Books">
+    <book bestseller="true">
+        <title>Yes Please</title>
+        <author>Amy Poehler</author>
+        <publisher>Haper Collins</publisher>
+        <price>€9.99</price>
+    </book>
+    <book>
+        <title>Bossypants</title>
+        <author>Tina Fey</author>
+        <publisher>Reagan Arthur</publisher>
+        <price>€6.99</price>
+    </book>
+    <book>
+        <title>One More Thing: Stories and Other Stories</title>
+        <author>B.J.Novak</author>
+        <publisher>Knopf Doubleday Publishing Group</publisher>
+        <price>€8.15</price>
+    </book>
+</section>
+<section name="Horror Books">
+    <book bestseller="true">
+        <title>Dracula</title>
+        <author>Bram Stoker</author>
+        <publisher>Archibald Constable and Company</publisher>
+        <price>€5.99</price>
+    </book>
+    <book>
+        <title>Frankenstein</title>
+        <author>Mary Shelley</author>
+        <publisher>Lackington, Hughes, Harding, Mavor and Jones</publisher>
+        <price>€15.50</price>
+    </book>
+    <book>
+        <title>The Haunting of Hill House</title>
+        <publisher>Viking</publisher>
+        <author>Shirley Jackson</author>
+        <price>€7.15</price>
+    </book>
+</section>
 </books>
