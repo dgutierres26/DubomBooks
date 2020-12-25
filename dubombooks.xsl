@@ -5,10 +5,14 @@
             <thead>
                 <tr>
                     <th colpan="5">DubomBooks</th>
+                    <th>
+                        <input type="checkbox" id="bestseller" name="bestseller" value="book"/>
+                        <label for="bestseller"> Bestseller</label>
+                    </th>
                 </tr>
                 <tr>
-                    <th>Select</th>
-                    <th>title</th>>
+                    <th>select</th>
+                    <th>title</th>
                     <th>author</th>
                     <th>publisher</th>
                     <th>price</th>
