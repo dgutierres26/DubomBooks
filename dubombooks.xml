@@ -8,13 +8,13 @@
         <publisher>Penguin books</publisher>
         <price>7.99</price>
     </book>
-    <book bestseller="false">
+    <book>
         <title>The Enemy</title>
         <author>Charles Higson</author>
         <publisher>Penguin books</publisher>
         <price>8.40</price>
     </book>
-    <book bestseller="false">
+    <book>
         <title>V2</title>
         <author>Robert Harris</author>
         <publisher>Hutchinson</publisher>
@@ -28,13 +28,13 @@
         <publisher>Haper Collins</publisher>
         <price>9.99</price>
     </book>
-    <book bestseller="false">
+    <book>
         <title>Bossypants</title>
         <author>Tina Fey</author>
         <publisher>Reagan Arthur</publisher>
         <price>6.99</price>
     </book>
-    <book bestseller="false">
+    <book>
         <title>One More Thing: Stories and Other Stories</title>
         <author>B.J.Novak</author>
         <publisher>Knopf Doubleday Publishing Group</publisher>
@@ -48,13 +48,13 @@
         <publisher>Archibald Constable and Company</publisher>
         <price>5.99</price>
     </book>
-    <book bestseller="false">
+    <book>
         <title>Frankenstein</title>
         <author>Mary Shelley</author>
         <publisher>Lackington, Hughes, Harding, Mavor and Jones</publisher>
         <price>15.50</price>
     </book>
-    <book bestseller="false">
+    <book>
         <title>The Haunting of Hill House</title>
         <publisher>Viking</publisher>
         <author>Shirley Jackson</author>
