@@ -31,16 +31,15 @@ function jsToXmlFile(filename, obj, cb) {
   var xml = builder.buildObject(obj);
   fs.unlinkSync(filepath);
   fs.writeFile(filepath, xml, cb);
-// ================================= HELLO WORLD  ========================
 }
 
-
+// It's redenring the file index
 app.get('/', (req, res) => {
     res.render('index');
 });
 
-app.get('/index', (req, res) => {
-    console.log("OK");
+app.get('/get/html', (req, res) => {
+    
     res.writeHead(200, {'Content-Type': 'text/html'}); //We are responding to the client that the content served back is HTML and the it exists (code 200)
     var xml = fs.readFileSync('dubombooks.xml', 'utf8'); //We are reading in the XML file
     var xsl = fs.readFileSync('dubombooks.xsl', 'utf8'); //We are reading in the XSL file
@@ -49,7 +48,6 @@ app.get('/index', (req, res) => {
     var stylesheet = xmlParse(xsl); //Parsing our XSL file
 
     var result = xsltProcess(doc, stylesheet); //This does our XSL Transformation
-    console.log(result.toString());
     res.end(result.toString()); //Send the result back to the user, but convert to type string first
 });
 
