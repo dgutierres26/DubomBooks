@@ -9,7 +9,7 @@ bestsellerEl.addEventListener('click', function(){
 checkoutEl.addEventListener('click', function(){
     calcBill();
 });
-
+// That function is responsible to show all bestsellers
 function highlightBestseller(isHighlight){
     const rows = document.getElementsByTagName("TR");
     if (!rows)
@@ -26,7 +26,7 @@ function highlightBestseller(isHighlight){
         }
     }
 }
-
+// That function is responsible to calculate the price
 function calcBill(){
     const rows = document.getElementsByTagName("TR");
     if (!rows)
