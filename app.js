@@ -31,6 +31,7 @@ function jsToXmlFile(filename, obj, cb) {
   var xml = builder.buildObject(obj);
   fs.unlinkSync(filepath);
   fs.writeFile(filepath, xml, cb);
+// ================================= HELLO WORLD  ========================
 }
 
 
