@@ -7,6 +7,13 @@ body {
     text-align: left;
     color: #523819;
 }
+h1{
+    color: red;
+}
+button{
+    font-size: 500px;
+    color: red;
+}
 h2 {
     font-size: 140%;
     color: #0D3427;
