@@ -26,7 +26,7 @@
                         </td>
                     </tr>
                     <xsl:for-each select="book">
-                        <tr>
+                        <tr id="{position()}">
                             <xsl:attribute name="bestseller" >
                                 <xsl:value-of select="boolean(@bestseller)" />
                             </xsl:attribute>
