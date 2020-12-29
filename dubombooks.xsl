@@ -11,11 +11,11 @@
                     </th>
                 </tr>
                 <tr>
-                    <th>select</th>
-                    <th>title</th>
-                    <th>author</th>
-                    <th>publisher</th>
-                    <th>price</th>
+                    <th>Select</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Publisher</th>
+                    <th>Price</th>
                 </tr>    
             </thead>
             <tbody>
