@@ -1,3 +1,4 @@
+<!--For creating this schema I used the validator tools: https://www.freeformatter.com/xml-validator-xsd.html -->
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="books">
     <xs:complexType>

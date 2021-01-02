@@ -7,8 +7,8 @@
                     <th colpan="5">DubomBooks</th>
                     <th>
                         <input type="checkbox" id="bestseller" name="bestseller" value="book"/>
-                        <label for="bestseller"> Bestseller</label>
-                    </th>
+                        <label for="bestseller">Bestseller</label>
+                    </th> 
                 </tr>
                 <tr>
                     <th>Select</th>

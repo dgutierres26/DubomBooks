@@ -12,43 +12,38 @@ h1{
     font-size: 80px;
     font-weight: bold;
 }
-button{
-    font-size: 500px;
-    color: red;
+p{
+    color:rgb(15, 1, 1);
+    font-size: 30px;
+    font-weight: bold;
+    
 }
-h2 {
-    font-size: 140%;
-    color: #0D3427;
-    margin-top: 10px;
-}
-p {
-    font-size: 80%;
-    color: #523819;
+.btn{
+    font-size: 15px;
+    background-color: rgb(62, 62, 95);
+    color: rgb(243, 237, 237);
 }
 table {
     background-color: rgb(253, 252, 253);
     border-color: #000000;
     border-width: thin;
     border-collapse: collapse;
-    width: 75%;
+    opacity: 0.80;
+    width: 101%;
 }
 th {
     border-color: #000000;
     font-size: 120%;
-    color: #0D3427;
+    color: black;
+    font-weight: bold;
 }
 td {
     border-color: #000000;
     font-size: 100%;
-    color: #523819;
+    color: rgb(22, 18, 18);
     padding: 5px;
 }
-img {
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: 0px;
-}
-.indent {
+/* .indent {
     margin-left: 78px;
-}
+    
+} */
