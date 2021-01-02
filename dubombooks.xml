@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="dubombooks.xsl" ?>
-<books>
+<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="dubombooks.xsd">
 <section name="Action Books">
     <book bestseller="true">
         <title>The Spy and the Traitor: The Greatest Espionage Story of the Cold War:</title>

@@ -30,19 +30,19 @@
                             <xsl:attribute name="bestseller" >
                                 <xsl:value-of select="boolean(@bestseller)" />
                             </xsl:attribute>
-                            <td align="cente-left">
+                            <td align="center">
                                 <input name="title0" type="checkbox" />
                             </td>
-                            <td>
+                            <td align="left"> 
                                 <xsl:value-of select="title" />
                             </td>
-                            <td align="center">
+                            <td align="left">
                                 <xsl:value-of select="author" />
                             </td>
-                            <td align="ricenter-ght">
+                            <td align="left">
                                 <xsl:value-of select="publisher" />
                             </td>
-                            <td align="right">
+                            <td align="center">
                                 <xsl:value-of select="price" />
                             </td>
                         </tr>

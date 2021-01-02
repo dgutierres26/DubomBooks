@@ -8,7 +8,9 @@ body {
     color: #523819;
 }
 h1{
-    color: red;
+    color: rgb(65, 17, 17);
+    font-size: 80px;
+    font-weight: bold;
 }
 button{
     font-size: 500px;
@@ -24,7 +26,7 @@ p {
     color: #523819;
 }
 table {
-    background-color: #DACFE5;
+    background-color: rgb(253, 252, 253);
     border-color: #000000;
     border-width: thin;
     border-collapse: collapse;
