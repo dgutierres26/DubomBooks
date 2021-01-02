@@ -4,8 +4,8 @@
         <table id="bookTable" border="1" class="indent">
             <thead>
                 <tr>
-                    <th colpan="5">DubomBooks</th>
-                    <th>
+                    <th colspan="3">DubomBooks</th>
+                    <th colspan="2">
                         <input type="checkbox" id="bestseller" name="bestseller" value="book"/>
                         <label for="bestseller">Bestseller</label>
                     </th> 
