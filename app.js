@@ -56,7 +56,7 @@ app.get('/get/html', (req, res) => {
     res.end(result.toString());
 });
 
-// Add new items
+// Add new title
 app.post('/post/json', function (req, res) {
 
     function appendJSON(obj) {
@@ -66,11 +66,11 @@ app.post('/post/json', function (req, res) {
         xmlFileToJs('dubombooks.xml', function (err, result) {
             if (err) throw (err);
 
-            result.books.section[obj.sec_n].book.push({ 'item': obj.item, 'price': obj.price });
+            result.books.section[obj.sec_n].book.push({ 'title': obj.title, 'author': obj.author, 'publisher': obj.publisher, 'price': obj.price });
 
             console.log(JSON.stringify(result, null, "  "));
 
-            jsToXmlFile('PaddysCafe.xml', result, function (err) {
+            jsToXmlFile('dubombooks.xml', result, function (err) {
                 if (err) console.log(err);
             });
         });
@@ -82,7 +82,7 @@ app.post('/post/json', function (req, res) {
 
 });
 
-// Delete items
+// Delete title
 app.post('/post/delete', function (req, res) {
 
     function deleteJSON(obj) {
@@ -91,8 +91,8 @@ app.post('/post/delete', function (req, res) {
 
         xmlFileToJs('dubombooks.xml', function (err, result) {
             if (err) throw (err);
-
-            delete result.books.section[obj.section].book[obj.entree];
+            console.log(JSON.stringify(result, null, 4 ));
+            delete result.books.section[obj.section].book[obj.book];
 
             console.log(JSON.stringify(result, null, "  "));
 

@@ -7,6 +7,10 @@ body {
     text-align: left;
     color: #523819;
 }
+.container1{
+    background-color: whitesmoke;
+    opacity: 0.80;
+}
 h1{
     color: rgb(65, 17, 17);
     font-size: 80px;
@@ -22,6 +26,18 @@ p{
     font-size: 15px;
     background-color: rgb(62, 62, 95);
     color: rgb(243, 237, 237);
+}
+.btn1{
+    background-color: rgb(139, 28, 28);
+    border:rgb(139, 28, 28) ;
+    border-radius: 5px;
+    height: 35px;
+}
+.btn2{
+    background-color: rgb(22, 22, 109);
+    border:rgb(22, 22, 109);
+    border-radius: 5px;
+    height: 35px;
 }
 table {
     background-color: rgb(253, 252, 253);
@@ -43,7 +59,4 @@ td {
     color: rgb(22, 18, 18);
     padding: 5px;
 }
-/* .indent {
-    margin-left: 78px;
-    
-} */
+
