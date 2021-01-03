@@ -2,7 +2,7 @@
 <books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dubombooks.xsd">
   <section name="Action Books">
     <book bestseller="true">
-      <title>The Spy and the Traitor: The Greatest Espionage Story of the Cold War:</title>
+      <title>The Spy and the Traitor:The Greatest Espionage</title>
       <author>Ben Macintyre</author>
       <publisher>Penguin books</publisher>
       <price>7.99</price>
