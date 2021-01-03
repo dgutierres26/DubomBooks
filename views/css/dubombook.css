@@ -9,23 +9,20 @@ body {
     
 }
 .container1{
-    background-color: rgb(253, 252, 253);
-    opacity: 0.95;
+    background-color: rgb(253, 252, 253, 0.90);
     width: 101%;
 }
 .container2{
-    background-color: rgb(253, 252, 253);
+    background-color: rgb(253, 252, 253, 0.90);
     margin-top: 1%;
     margin-bottom: 1%;
     border-radius: 5px;
-    opacity: 0.95;
     padding: 1%;
 }
 .container3{
-    background-color: rgb(253, 252, 253);
+    background-color: rgb(253, 252, 253, 0.90);
     margin-top: 1%;
     margin-bottom: 1%;
-    opacity: 0.95;
     border-radius: 5px;
     padding: 0% 2% 2% 2%;
     width: 101%;
@@ -60,13 +57,12 @@ p{
     height: 35px;
 }
 #table {
-    background-color: rgb(253, 252, 253);
+    background-color: rgb(253, 252, 253, 0.90);
     border-color: #000000;
     color: #000000;
     border-width: thin;
     border-collapse: collapse;
     border-radius: 5px;
-    opacity: 0.95;
     margin-top: 0%;
 }
 table{
