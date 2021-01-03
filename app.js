@@ -2,13 +2,18 @@ const express = require('express');
 const app = express();
 const fs = require('fs');
 path = require('path');
-xmlParse = require('xslt-processor').xmlParse; //This module allows us to work with XML files
-xsltProcess = require('xslt-processor').xsltProcess; //The same module allows us to utilise XSL Transformations
-xml2js = require('xml2js'); //This module does XML to JSON conversion and also allows us to get from JSON back to XML
+//This module allows us to work with XML files
+xmlParse = require('xslt-processor').xmlParse; 
+//The same module allows us to utilise XSL Transformations
+xsltProcess = require('xslt-processor').xsltProcess; 
+//This module does XML to JSON conversion and also allows us to get from JSON back to XML
+xml2js = require('xml2js'); 
 
-app.use(express.static(path.resolve(__dirname, 'views'))); //We define the views folder as the one where all static content will be served
+//We define the views folder as the one where all static content will be served
+app.use(express.static(path.resolve(__dirname, 'views'))); 
 app.use(express.urlencoded({ extended: true }));
-app.use(express.json()); //We include support for JSON that is coming from the client
+//We include support for JSON that is coming from the client
+app.use(express.json()); 
 
 app.use((req, res, next) => {
     res.locals.path = req.path;
